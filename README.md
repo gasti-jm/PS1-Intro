@@ -30,7 +30,7 @@
 #define SCREEN_HEIGHT 768
 </code>
 
-<b>Note:</b> Resolutions higher than 800x600 are recommended!
+<b>Note:</b> Resolutions greater than 800x600 and 7680x4320 are recommended as a maximum!
 
 # Enable/disable VSYNC
 <p>Go to the engine.cpp file and in the "init" function you will see this code:</p>

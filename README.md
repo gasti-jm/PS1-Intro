@@ -22,7 +22,7 @@
   Steps for windows: <a href="http://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/index.php" target="_blank">Lazy Foo tutorials: Setting up SDL on Windows</a>
 </p>
 
-# How to change resolution:
+# Change resolution:
 
 <p>Go to the file intro.h and modify this code:</p>
 
@@ -32,7 +32,7 @@
 
 <b>Note:</b> Resolutions higher than 800x600 are recommended!
 
-# How to enable/disable VSYNC
+# Enable/disable VSYNC
 <p>Go to the engine.cpp file and in the "init" function you will see this code:</p>
 <code>renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_PRESENTVSYNC);</code>
 <br/> <br/>
@@ -42,7 +42,7 @@ And change for: <br/>
 <code>SDL_RENDERER_ACCELERATED: Disable VSYNC</code>
 </p>
 
-# How to enable/disable Fullscreen
+# Enable/disable Fullscreen
 <p>Go to the engine.cpp file and in the "init" function you will see this code:</p>
 <code>window = SDL_CreateWindow("PLAYSTATION INTRO",
                               SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
